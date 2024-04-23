@@ -23,7 +23,7 @@
 
 ## Project
 
-Just a personal project where I use a custom UI and make requests to OpenAI to chat.
+Just a personal project where I use a custom UI and make requests to OpenAI to chat. Try it out by clicking the image or "view demo".
 
 ## Learn More
 
