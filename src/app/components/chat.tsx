@@ -25,7 +25,7 @@ export default function Chat() {
         >
           <input
             value={input}
-            placeholder="Enter your question here..."
+            placeholder="Skriv in din fråga..."
             onChange={handleInputChange}
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
           />
@@ -33,7 +33,7 @@ export default function Chat() {
             className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
             type="submit"
           >
-            Send
+            Skicka
           </button>
         </form>
       </section>
@@ -56,8 +56,8 @@ export default function Chat() {
               <li
                 className={`rounded-lg p-2 ${
                   m.role === "user"
-                    ? "order-1 bg-blue-600 mr-2 w-fit max-w-96"
-                    : "order-2 bg-gray-600 ml-2 w-fit max-w-96"
+                    ? " bg-blue-600 mr-2 w-fit max-w-96"
+                    : " bg-gray-600 ml-2 w-fit max-w-96"
                 }`}
               >
                 {m.content}
